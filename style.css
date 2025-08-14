@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================
+      Common css start
+   ========================= */
+.container{
+  width: 1290px;
+  margin: 0 auto;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* =========================
+      Common css end
+   ========================= */
+
+/* =========================
+      Navbar css start
+   ========================= */
+
+nav{
+  background-color: #FAE3B6;
+  padding: 47px 0px;
+}
+.logo{
+  width: 22%;
+  
+}
+.menue{
+  width: 50%;
+  
+}
+.menue ul{
+  display: flex;
+  column-gap: 59px;
+  position: relative;
+}
+.menue ul li{
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+/* li::after{
+  background-color: white;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+} */
+.button{
+  width: 28%;
+  text-align: right;
+
+}
+.button a{
+  background-color: #FDBB57;
+  padding: 10px 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: #050505;
+  font-weight: 600;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+.button a:first-child{
+  margin-right: 5px;
+}
+
+.button a:hover{
+  background-color: #FAE3B6;
+  border-color: rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.15);
+}
+  
+  
+
+
+/* =========================
+      Navbar css end
+   ========================= */
