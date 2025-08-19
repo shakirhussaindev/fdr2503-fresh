@@ -7,7 +7,7 @@
       Common css start
    ========================= */
 .container{
-  width: 1290px;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -158,6 +158,7 @@ nav .box{
    .Collection{
     padding-top: 217px;
     padding-bottom: 188px;
+    position: relative;
    }
 
   .Collection h2{
@@ -211,10 +212,149 @@ nav .box{
     position: absolute;
     top: 283px;
     left: 18px;
+  }
+  
     
+    /* ===================================
+          Collection part css end
+   ====================================== */ 
+
+
+
+
+   /* ===================================
+          Fashion part css start
+   ====================================== */  
+
+  .fashion{
+    margin-top: 100px;
+    margin-bottom: 300px;
+  }
+
+  .fashion .box{
+    align-items: center;
+  }
+
+  .fashion .left{
     
   }
 
+  .fashion .left img{
+    width: 725px;
+    height: 734px;
+  }
+
+  .fashion .right{
+    
+    padding-left: 35px;
+    
+  }
+  
+  .fashion .right h2{
+   width: 437px;
+   color: black;
+   font-size: 64px;
+   font-weight: 700;
+   font-family: "Frank Ruhl Libre", serif;
+   padding-bottom: 63px;
+  }
+
+  .fashion .right p{
+    width: 443px;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+  }
+
+  .fashion .result {
+    width: 793px;
+    height: 280px;
+    background-color: #FEECC8;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 495px;
+    margin-top: -82px;
+  }
+
+  .n1{
+    width: 257px;
+   
+  }
+  .n1 h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: black;
+    padding-left: 80px;
+    padding-top: 72px;
+  }
+  .n1 p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding-left: 89px;
+    padding-top: 20px
+  }
+  .line{
+    width: 2px;
+    height: 160px;
+    background: black;
+    margin-top: 60px;
+  }
+  .n2{
+    width: 265px;
+   
+  }
+  .n2 h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: black;
+    padding-left:50px;
+    padding-top: 72px;
+  }
+  .n2 p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding-left: 50px;
+    padding-top: 20px
+  }
+  .n3{
+    width: 252px;
+   
+  }
+  .n3 h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: black;
+    padding-left:40px;
+    padding-top: 72px;
+  }
+  .n3 p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding-left: 35px;
+    padding-top: 20px
+
+  }
+
    /* ===================================
-          Collection part css end
+          Fashion part css end
+   ====================================== */
+   
+   
+   /* ===================================
+          Product part css end
+   ====================================== */  
+   
+   /* ===================================
+          Product part css end
    ====================================== */  
