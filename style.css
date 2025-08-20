@@ -19,6 +19,7 @@ ul,ol{
 }
 a{
   text-decoration: none;
+  display: inline-block;
 }
 /* =========================
       Common css end
@@ -127,9 +128,9 @@ nav .box{
     font-size: 24px;
     font-weight: 600;
     padding: 25px 91px;
-    display: inline-block;
     border-radius: 10px;
     border: 1px solid transparent;
+    transition: .4s;
    }
 
    .bannar a:hover{
@@ -354,7 +355,83 @@ nav .box{
    /* ===================================
           Product part css end
    ====================================== */  
+
+   .Product{
+    width: 100%;
+    height: 828px;
+    background-color: #CFA485;
+
+   }
+
+   .Product .one{
+    margin-top: 60px;
+    margin-left: 90px;
+    
+   }
    
+
+   .Product .one h2{
+    width: 437px;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+   }
+   .Product .one p{
+    width: 437px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    padding-top: 40px;
+    padding-bottom: 60px;
+   }
+   .Product .one a{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    padding: 25px 70px;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: .4s;
+   }
+
+   .Product .one a:hover{
+    background-color: #CFA485;
+    color: black;
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -2px 35px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -2px 35px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 35px -3px rgba(0,0,0,0.75);    
+   }
+
+   .Product .two{
+    margin-top: 80px;
+    margin-left: 40px;
+    background-color: white;
+    width: 366px;
+    height: 551px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+
+  .Product .two img{
+    width: 366px;
+    height: 424px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+  }
+
+  .Product .two1{
+    width: 366px;
+    height: 127px;
+  }
+  .Product .two1 p:first-child{
+
+  }
    /* ===================================
           Product part css end
    ====================================== */  
