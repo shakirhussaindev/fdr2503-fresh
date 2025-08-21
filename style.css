@@ -215,6 +215,11 @@ nav .box{
     left: 18px;
   }
   
+  .Collection .or{
+    position: absolute;
+    top: 60%;
+    left: 90%;
+  }
     
     /* ===================================
           Collection part css end
@@ -353,15 +358,23 @@ nav .box{
    
    
    /* ===================================
-          Product part css end
+          Product part css start
    ====================================== */  
 
    .Product{
     width: 100%;
     height: 828px;
     background-color: #CFA485;
+    position: relative;
 
    }
+
+   .Product .dot {
+    position: absolute;
+    top: -18%;
+    left: 20%;
+    z-index: -1;
+}
 
    .Product .one{
     margin-top: 60px;
@@ -409,7 +422,7 @@ nav .box{
    }
 
    .Product .two{
-    margin-top: 80px;
+    margin-top: 90px;
     margin-left: 40px;
     background-color: white;
     width: 366px;
@@ -428,10 +441,81 @@ nav .box{
   .Product .two1{
     width: 366px;
     height: 127px;
+    position: relative;
   }
-  .Product .two1 p:first-child{
+  
+  .Product .two1 .star{
+    font-size: 17px;
+    color: #FFAF37;
+    display: flex;
+    column-gap: 10px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
+
+  .Product .two:hover .star{
+    color: #ffd04e;
+    
+  }
+
+  .Product .two1 .p1{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 42px;
+    left: 30px;
 
   }
+  .Product .two1 .p2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #C4C4C4;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+
+  }
+
+  .Product .two1 .p2::after{
+    width: 0%;
+    height: 1px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    content: "";
+    transition: .4s;
+  }
+  .Product .two:hover .p2::after{
+    width: 100%;
+    background-color: #a5a5a5;
+  }
+  
+  .Product .two1 .p3{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    position: absolute;
+    top: 80px;
+    left: 160px;
+
+  }
+  .Product .two:hover .p3{
+    font-size: 26px;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .Product .two:nth-child(3) img{
+    width: 368px;
+    margin-left: -2px;
+  }
+
+  
    /* ===================================
           Product part css end
    ====================================== */  
